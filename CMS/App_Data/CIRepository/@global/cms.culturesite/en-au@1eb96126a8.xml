@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.culturesite>
+  <Parent>
+    <CodeName>en-AU</CodeName>
+    <GUID>56872227-9b0f-46f9-8373-c61a9db00cc5</GUID>
+    <ObjectType>cms.culture</ObjectType>
+  </Parent>
+  <Bindings>
+    <Binding id="MedioClinic">
+      <SiteID>
+        <CodeName>MedioClinic</CodeName>
+        <GUID>12c4cebb-8b0f-4bcf-9331-526b963da4ae</GUID>
+        <ObjectType>cms.site</ObjectType>
+      </SiteID>
+    </Binding>
+  </Bindings>
+</cms.culturesite>

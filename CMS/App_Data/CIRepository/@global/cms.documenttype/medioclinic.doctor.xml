@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>MedioClinic</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>Doctor</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="DoctorID" columntype="integer" guid="3797e4bc-8626-4707-9411-5942641c2f53" isPK="true">
+        <properties>
+          <fieldcaption>DoctorID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="Degree" columnsize="200" columntype="text" guid="c8415b8c-63dd-4daa-a827-37233db6e87c" visible="true">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="Biography" columnsize="200" columntype="text" guid="45169e96-183e-4aea-a779-ae14c8dcfac1" visible="true">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="UserAccount" columntype="integer" guid="3ab4fa07-0700-4d9f-b6cb-1532f36b690a" visible="true">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="BackdropPicture" columntype="guid" guid="98c8fe9f-d269-4c00-b57a-7e54ddfa6ff6" visible="true">
+        <settings>
+          <controlname>LabelControl</controlname>
+          <ResolveMacros>True</ResolveMacros>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>2d46f047-4798-45bc-b40b-918298abe8b5</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>MedioClinic.Doctor</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="11b9f281-7e06-4aba-9991-fef5e5d68432" name="DoctorID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="26f355ea-4c56-4930-9982-4ab3ae60e553" name="UserAccount" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="3e319293-2a6b-4e07-9953-e77ce8bf8475" name="Biography" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="False" azuresearchable="False" content="False" id="ba19582d-624c-489e-99db-7aed07babf05" name="BackdropPicture" searchable="False" tokenized="False" updatetrigger="False" />
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="ba1c2f37-fb60-4ae2-9cb1-1e35a6daa833" name="Degree" searchable="False" tokenized="True" updatetrigger="True" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>MedioClinic_Doctor</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>True</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

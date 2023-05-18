@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.site>
+  <SiteDisplayName>Medio Clinic</SiteDisplayName>
+  <SiteDomainName>localhost:88/Kentico13_admin</SiteDomainName>
+  <SiteGUID>12c4cebb-8b0f-4bcf-9331-526b963da4ae</SiteGUID>
+  <SiteName>MedioClinic</SiteName>
+  <SitePresentationURL>http://localhost:88</SitePresentationURL>
+</cms.site>

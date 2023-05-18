@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.documenttype>
+  <ClassCodeGenerationSettings>
+    <Data>
+      <NameSpace>MedioClinic</NameSpace>
+    </Data>
+  </ClassCodeGenerationSettings>
+  <ClassDisplayName>CompanyService</ClassDisplayName>
+  <ClassFormDefinition>
+    <form version="2">
+      <field column="CompanyServiceID" columntype="integer" guid="9ced373f-00ed-40ec-9963-5e0b750b4912" isPK="true">
+        <properties>
+          <fieldcaption>CompanyServiceID</fieldcaption>
+        </properties>
+      </field>
+      <field allowempty="true" column="ServiceDescription" columnsize="200" columntype="text" guid="0546bd71-28d7-4e62-bbd7-639343ba9c47" visible="true">
+        <settings>
+          <AutoCompleteEnableCaching>False</AutoCompleteEnableCaching>
+          <AutoCompleteFirstRowSelected>False</AutoCompleteFirstRowSelected>
+          <AutoCompleteShowOnlyCurrentWordInCompletionListItem>False</AutoCompleteShowOnlyCurrentWordInCompletionListItem>
+          <controlname>TextBoxControl</controlname>
+          <FilterMode>False</FilterMode>
+          <Trim>False</Trim>
+        </settings>
+      </field>
+      <field allowempty="true" column="Icon" columntype="guid" guid="c17e80ae-ac41-430c-8561-790042edadbf" visible="true">
+        <settings>
+          <controlname>LabelControl</controlname>
+          <ResolveMacros>True</ResolveMacros>
+        </settings>
+      </field>
+    </form>
+  </ClassFormDefinition>
+  <ClassGUID>b9334425-df1d-46fa-a323-1a6dc19e89e9</ClassGUID>
+  <ClassHasMetadata>True</ClassHasMetadata>
+  <ClassHasURL>True</ClassHasURL>
+  <ClassIconClass>icon-doc-o</ClassIconClass>
+  <ClassInheritsFromClassID>0</ClassInheritsFromClassID>
+  <ClassIsCoupledClass>True</ClassIsCoupledClass>
+  <ClassIsCustomTable>False</ClassIsCustomTable>
+  <ClassIsDocumentType>True</ClassIsDocumentType>
+  <ClassIsForm>False</ClassIsForm>
+  <ClassIsNavigationItem>True</ClassIsNavigationItem>
+  <ClassName>MedioClinic.CompanyService</ClassName>
+  <ClassNodeNameSource />
+  <ClassSearchCreationDateColumn>DocumentCreatedWhen</ClassSearchCreationDateColumn>
+  <ClassSearchEnabled>True</ClassSearchEnabled>
+  <ClassSearchIndexDataSource>2</ClassSearchIndexDataSource>
+  <ClassSearchSettings>
+    <search>
+      <item azurecontent="True" azureretrievable="False" azuresearchable="True" content="True" id="1ea91046-d65d-48de-854a-e75f49e3abcc" name="ServiceDescription" searchable="False" tokenized="True" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="True" azuresearchable="False" content="False" id="8b55f1d4-a15d-44c0-8730-880d5da2ab16" name="CompanyServiceID" searchable="True" tokenized="False" updatetrigger="True" />
+      <item azurecontent="False" azureretrievable="False" azuresearchable="False" content="False" id="bfc96fa2-5373-45a3-92af-518bdd198c68" name="Icon" searchable="False" tokenized="False" updatetrigger="False" />
+    </search>
+  </ClassSearchSettings>
+  <ClassSearchTitleColumn>DocumentName</ClassSearchTitleColumn>
+  <ClassShowAsSystemTable>False</ClassShowAsSystemTable>
+  <ClassTableName>MedioClinic_CompanyService</ClassTableName>
+  <ClassUsePublishFromTo>True</ClassUsePublishFromTo>
+  <ClassUsesPageBuilder>True</ClassUsesPageBuilder>
+  <ClassUsesVersioning>False</ClassUsesVersioning>
+</cms.documenttype>

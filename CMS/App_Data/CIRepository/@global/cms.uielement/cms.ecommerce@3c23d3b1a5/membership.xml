@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<cms.uielement>
+  <ElementCaption>{$administration.ui.membership$}</ElementCaption>
+  <ElementCheckModuleReadPermission>False</ElementCheckModuleReadPermission>
+  <ElementDisplayName>{$administration.ui.membership$}</ElementDisplayName>
+  <ElementFromVersion>8.0</ElementFromVersion>
+  <ElementGUID>63e377be-11de-47e1-985a-cc9c4f0ace9a</ElementGUID>
+  <ElementIconClass />
+  <ElementIsCustom>False</ElementIsCustom>
+  <ElementIsGlobalApplication>False</ElementIsGlobalApplication>
+  <ElementIsMenu>False</ElementIsMenu>
+  <ElementName>Membership</ElementName>
+  <ElementOrder>6</ElementOrder>
+  <ElementParentID>
+    <CodeName>EditCustomersProperties</CodeName>
+    <GUID>cfd09dee-953d-4b33-9511-30742faa3570</GUID>
+    <ObjectType>cms.uielement</ObjectType>
+    <Parent>
+      <CodeName>CMS.Ecommerce</CodeName>
+      <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+      <ObjectType>cms.resource</ObjectType>
+    </Parent>
+  </ElementParentID>
+  <ElementProperties>
+    <data>
+      <includejquery>False</includejquery>
+      <displaybreadcrumbs>False</displaybreadcrumbs>
+      <objecttype>cms.user</objecttype>
+    </data>
+  </ElementProperties>
+  <ElementRequiresGlobalAdminPriviligeLevel>False</ElementRequiresGlobalAdminPriviligeLevel>
+  <ElementResourceID>
+    <CodeName>CMS.Ecommerce</CodeName>
+    <GUID>684e021b-8b56-4cbf-8fd5-b7a791fd2dbc</GUID>
+    <ObjectType>cms.resource</ObjectType>
+  </ElementResourceID>
+  <ElementSize>0</ElementSize>
+  <ElementTargetURL>
+    <![CDATA[~/CMSModules/Membership/Pages/Users/User_Edit_Membership.aspx?userid={% EditedObject.CustomerUserID|(identity)GlobalAdministrator|(hash)e8be442d1c18fe718de472fbc319c400fe4e7c7a6ea26a0546302d678a335c3f%}]]>
+  </ElementTargetURL>
+  <ElementType>Url</ElementType>
+  <ElementVisibilityCondition>
+    <![CDATA[{%(CurrentUser.IsAuthorizedPerResource("CMS.Users","Read")) && EditedObject.CustomerIsRegistered|(identity)GlobalAdministrator|(hash)d1338215fa3da6abba1a0f23c51add784dcf56dd4c248227e9b85fe9588de2a6%}]]>
+  </ElementVisibilityCondition>
+</cms.uielement>
